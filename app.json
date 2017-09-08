@@ -1,16 +1,10 @@
 {
   "pages":[
-<<<<<<< HEAD
     "pages/recommend/index",
     "pages/my/index",
     "pages/index/index",
     "pages/logs/logs"
-   
-  ]
   
-=======
-    "pages/index/index",
-    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -18,5 +12,5 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   }
->>>>>>> parent of f01c2f6... add api demo
+
 }
