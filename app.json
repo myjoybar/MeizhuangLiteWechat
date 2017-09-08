@@ -1,5 +1,6 @@
 {
   "pages":[
+<<<<<<< HEAD
     "pages/recommend/index",
     "pages/my/index",
     "pages/index/index",
@@ -26,6 +27,11 @@
         }
       ]
     },
+=======
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+>>>>>>> parent of f01c2f6... add api demo
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
