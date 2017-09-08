@@ -1,0 +1,6 @@
+<!--recommend.wxml-->
+<view class="container log-list">
+
+   <text class="log-item">AAA</text> 
+ 
+</view>
