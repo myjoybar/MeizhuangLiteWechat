@@ -1,0 +1,5 @@
+/* @import "../common/index.wxss"; */
+.index-hd {
+  padding: 80rpx;
+  text-align: center;
+}

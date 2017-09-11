@@ -1,4 +1,6 @@
 <!--recommend.wxml-->
 <view class="container log-list">
-   <text class="log-item">推荐</text> 
+
+   <text class="log-item">view</text> 
+ 
 </view>

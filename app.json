@@ -5,7 +5,10 @@
     "pages/component/index",
     "pages/api/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/backup/index",
+    "pages/component/pages/view/view"
+
    
   ],
     "tabBar": {
