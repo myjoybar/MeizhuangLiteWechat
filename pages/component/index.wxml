@@ -1,13 +1,17 @@
-<view class="container">
-
+<!-- <view class="container"> -->
+<view class="">
   <view class="index-hd">
-    <image class="index-logo" src="/image/demo/Food-01.png"></image>
-    <view class="index-desc">以下将展示小程序官方组件能力，组件样式仅供参考，开发者可根据自身需求自定义组件样式，具体属性参数详见小程序开发文档。</view>
+    <image class="index-logo" src="/image/demo/icon_1.png"></image>
+    <view class="index-desc">demo 实例</view>
   </view>
 
-  <navigator url="pages/view/view" hover-class="navigator">
-  View
- </navigator> 
+
+ <navigator url="pages/view/view" hover-class="navigator-hover">
+        <button type="default">跳转到View</button>
+      </navigator>
+      <!-- <navigator url="pages/view/view" redirect hover-class="other-navigator-hover">
+        <button type="default">在当前页打开</button>
+      </navigator> -->
  <view  bindtap="bindViewTapToPageView" >
     <text>View</text>
   </view>
