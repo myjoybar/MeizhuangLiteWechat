@@ -1,41 +1,36 @@
-<!-- <import src="../common/head.wxml" />
-<import src="../common/foot.wxml" /> -->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
 
-<!-- <view class="container"> -->
-   <!-- <template is="head" data="{{title: 'view'}}"/>  -->
-<!-- 
-  <view class="page-body">
-    <view class="page-section">
-      <view class="page-section-title">
-        <text>flex-direction: row\n横向布局</text>
-      </view>
-      <view class="page-section-spacing">
-        <view class="flex-wrp" style="flex-direction:row;">
-          <view class="flex-item demo-text-1">1</view>
-          <view class="flex-item demo-text-2">2</view>
-          <view class="flex-item demo-text-3">3</view>
-        </view>
-      </view>
+<view>
+  <template is="head" data="{{title: 'view'}}" />
+  <view class="flex-vertical">
+    <view class="page-header">
+      <text>pageHead</text>
     </view>
-    <view class="page-section">
-      <view class="page-section-title">
-        <text>flex-direction: column\n纵向布局</text>
-      </view>
-      <view class="flex-wrp" style="flex-direction:column;">
-        <view class="flex-item flex-item-V demo-text-1">a</view>
-        <view class="flex-item flex-item-V demo-text-2">b</view>
-        <view class="flex-item flex-item-V demo-text-3">c</view>
-      </view>
+    <view class="page-body">
+      <view class="light-blue flex-item">pageBody</view>
+      <view class="blue flex-item">pageBody</view>
+      <view class="light-red flex-item">pageBody</view>
+      <view class="red flex-item">pageBody</view>
     </view>
-  </view> -->
+    <view class="page-footer flex-horizontal">
+      <view class="light-blue flex-item">pageBody</view>
+      <view class="blue flex-item">pageBody</view>
+      <view class="light-red flex-item">pageBody</view>
+      <view class="red flex-item">pageBody</view>
+    </view>
+    <view class="page-footer flex-horizontal-center" style="height: 400rpx; background-color: #D2CCC5">
+      <view class="light-blue flex-item">flex-horizontal-center</view>
+    </view>
 
-   <!-- <template is="foot" />  -->
-<!-- </view> -->
+    <view class="page-footer flex-vertical-center" style="height: 400rpx; background-color: #CCCCCC">
+      <view class="light-blue flex-item">flex-vertical-center</view>
+    </view>
 
-<view class="flex-vertical">
-
-<view class="page-head">
- <text class="page-head">flex-direction: column\n纵向布局</text>
-</view>
+    <view class="page-footer flex-center" style="height: 400rpx; background-color: #C2CC9C">
+      <view class="light-blue flex-item">flex-center</view>
+    </view>
+  </view>
+  <template is="foot" />
 
 </view>

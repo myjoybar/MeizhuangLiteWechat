@@ -13,4 +13,16 @@ Page({
       url: '/pages/component/pages/view/view'
     })
   },
+  bindViewTapToPageScrollView: function () {
+    wx.navigateTo({
+      url: '/pages/component/pages/scrollview/scrollview'
+    })
+  },
+
+  bindViewTapToPageSwiper: function () {
+    wx.navigateTo({
+      url: '/pages/component/pages/swiper/swiper'
+    })
+  },
+  
 })

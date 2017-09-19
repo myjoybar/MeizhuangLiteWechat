@@ -1,0 +1,35 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="flex-vertical">
+  <template is="head" data="{{title: 'swiper'}}" />
+
+  <view>
+    <view>{{describle}}</view>
+
+  <swiper  indicator-dots="{{indicatorDots}}"   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{navs}}" >
+          <swiper-item>
+            <view class="swiper-item">
+               <image src="{{item.navimg}}" class="slide-image" width="355" height="150" />
+             </view>
+          </swiper-item>
+        </block>
+      </swiper>
+
+
+  </view>
+  <template is="foot" />
+</view>
+
+
+
+    <!-- <swiper>
+
+      <swiper-item>
+        <block wx:for="{{navs}}">
+          <image src="{{item.navimg}}" class="slide-image" width="355" height="150" />
+        </block>
+      </swiper-item>
+
+    </swiper> -->

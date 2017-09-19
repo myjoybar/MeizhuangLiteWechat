@@ -1,5 +1,5 @@
-<view class="container log-list">
+<view class="">
 
-   <text class="log-item">推荐</text> 
+   <text class="">推荐</text> 
  
 </view>

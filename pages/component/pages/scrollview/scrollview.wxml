@@ -1,0 +1,32 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="flex-vertical">
+  <template is="head" data="{{title: 'scroll-view'}}" />
+
+  <view>
+    <text>Vertical Scroll\n纵向滚动</text>
+
+    <view class="page-section-spacing">
+      <scroll-view scroll-y="true" style="height: 400rpx;">
+        <view id="demo1" class="scroll-view-item demo-text-1"></view>
+        <view id="demo2" class="scroll-view-item demo-text-2"></view>
+        <view id="demo3" class="scroll-view-item demo-text-3"></view>
+      </scroll-view>
+    </view>
+
+    <text>Horizontal Scroll\n横向滚动</text>
+     <scroll-view class="scroll-view_H" scroll-x="true"  style="width: 100%">
+          <view id="demo1" class="scroll-view-item_H demo-text-1"></view>
+          <view id="demo2"  class="scroll-view-item_H demo-text-2"></view>
+          <view id="demo3" class="scroll-view-item_H demo-text-3"></view>
+        </scroll-view>
+
+  </view>
+
+
+
+
+
+  <template is="foot" />
+</view>

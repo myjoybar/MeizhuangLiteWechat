@@ -6,13 +6,17 @@
   </view>
 
 
- <navigator url="pages/view/view" hover-class="navigator-hover">
-        <button type="default">跳转到View</button>
-      </navigator>
-      <!-- <navigator url="pages/view/view" redirect hover-class="other-navigator-hover">
-        <button type="default">在当前页打开</button>
-      </navigator> -->
- <view  bindtap="bindViewTapToPageView" >
+  <navigator url="pages/view/view" hover-class="navigator-hover">
+    <button type="default">跳转到View</button>
+  </navigator>
+  <view bindtap="bindViewTapToPageView">
     <text>View</text>
+  </view>
+  <view bindtap="bindViewTapToPageScrollView">
+    <button>ScrollView</button>
+  </view>
+
+  <view bindtap="bindViewTapToPageSwiper">
+    <button>Swiper</button>
   </view>
 </view>
